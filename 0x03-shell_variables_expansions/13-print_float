@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $($NUM | xargs printf "%.2fi")
+echo -e $($NUM | xargs printf "%.2fi")
